@@ -1,5 +1,1 @@
-[
-  { course_name: 'git'},
-  { course_name: 'shell'}
-]
-  
+[{ "course_name": "git" }, { "course_name": "shell" }]
