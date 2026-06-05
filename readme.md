@@ -44,3 +44,22 @@ git commit -m "commit message" // create a new commit with the changes in the st
 git log // check the commit history
 git reflog // check the ref history, including all branches and tags created
 ```
+
+## 4. Github Repository
+
+```shell
+git remote -v // check the remote repositories
+git remote remove origin // remove the remote repository named origin
+
+git remote add origin https://github.com/yourusername/yourrepository.git // add a remote repository
+git push -u origin main // push the local changes to the remote repository
+
+// usually first pull latest updated to local
+git pull origin main // pull the remote changes to the local repository
+
+// then working on local and push changes to github
+git push origin main
+
+
+git clone https://github.com/yourusername/yourrepository.git // clone the remote repository to local machine
+```
