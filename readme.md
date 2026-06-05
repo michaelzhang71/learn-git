@@ -61,5 +61,5 @@ git pull origin main // pull the remote changes to the local repository
 git push origin main
 
 
-git clone https://github.com/yourusername/yourrepository.git // clone the remote repository to local machine
+git clone https://github.com/yourusername/yourrepository.git alias-name // clone the remote repository to local machine with a different name
 ```
